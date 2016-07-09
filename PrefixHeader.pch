@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  AssetsPickerDemo
+//
+//  Created by 刘隆昌 on 15-1-1.
+//  Copyright (c) 2015年 刘隆昌. All rights reserved.
+//
+
+#ifndef AssetsPickerDemo_PrefixHeader_pch
+#define AssetsPickerDemo_PrefixHeader_pch
+
+
+#import "ZLNavigationController.h"
+
+#import "ViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define UrlStr1 @"http://cocoimg.365rili.com/schedule_pics/default/bd625d59-5e98-4719-8220-f1e56902f3c1.jpg!thumb320"
+#define UrlStr2 @"http://e.hiphotos.baidu.com/zhidao/pic/item/574e9258d109b3de40f319c6cebf6c81810a4cd4.jpg"
+#define UrlStr3 @"http://image.tianjimedia.com/uploadImages/2013/165/P9KJTQBA119S.jpg"
+
+#import "ZLCameraViewController.h"
+#import "ZLPickerViewController.h"
+#import "ZLPickerBrowserPhoto.h"
+#import "ZLAnimationBaseView.h"
+#import <AssetsLibrary/AssetsLibrary.h>
+#import "ZLPickerBrowserViewController.h"
+
+#import "UIImageView+WebCache.h"
+#import "UIView+Extension.h"
+
+#import "CustTabViewCell.h"
+
+
+
+#endif
